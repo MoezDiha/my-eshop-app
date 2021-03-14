@@ -39,6 +39,7 @@ public class Produit implements java.io.Serializable {
 	public Produit(Long  idProduit, Categorie categorie) {
 		this.idProduit = idProduit;
 		this.categorie = categorie;
+//test
 	}
 
 	public Produit(Long  idProduit, Categorie categorie, String desigProduit, BigDecimal  puProduit,
